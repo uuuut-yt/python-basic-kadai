@@ -1,0 +1,9 @@
+upper = 10
+bottom = 20
+height = 5
+
+#　台形の面積 = (上辺+下辺)× 高さ ÷ 2
+daikei = (upper + bottom) * height / 2
+
+# 数値と文字列型の結合
+print(daikei,"㎠")
