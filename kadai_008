@@ -1,0 +1,18 @@
+# 変数
+var = 85
+
+# 変数varが、3と５の両方の倍数で割り切れたらFizzBuzz
+if var % 15 == 0:
+    print("FizzBuzz")
+
+# 変数varが、3の倍数の場合は「Fizz」を出力
+elif var % 3 == 0:
+    print("Fizz")
+
+# 変数varが、5の倍数の場合は「Buzz」を出力
+elif var % 5 == 0:
+    print("Buzz")
+
+#いずれにも該当しない場合は変数varを出力
+else:
+    print(var)
