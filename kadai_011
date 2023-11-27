@@ -1,0 +1,21 @@
+planets = ["水","金","地","火","木","土","天","海","冥"]
+
+for planet in planets:
+    print(planet)
+# リストの長さを取得
+planet_length = len(planets)
+
+# 繰り返し処理のインデックスを定義
+index = 0
+
+# 現在のインデックスがリストの長さの数値より小さければ処理を継続
+while index < planet_length:
+
+    current_planet = planets[index]
+    # もしcurrent_planetが0だった場合はインデックスに１を加算して次のループに進む
+    if current_planet == 0:
+        index += 1
+        continue
+    
+    print(current_planet)
+    index += 1
