@@ -1,0 +1,6 @@
+def mul_two_arguments(price, tax):
+    total = price * tax
+
+    print(f"{total}円")
+
+mul_two_arguments(1800, 1.1)
